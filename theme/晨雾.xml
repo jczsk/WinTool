@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global>
+	<!--文字默认颜色-->
+    <Color name="textdefaultcolor" value="#ff000000"/>
+	
+	<!--主窗口-->
+	<Color name="main_bd" value="#FF7F8285"/><!--边框颜色-->
+	<Color name="main_bk" value="#FFAAB0B6"/><!--标题栏背景色-->
+	<Color name="main_title" value="rgb(120,150,180)"/><!--标题颜色-->
+	<Color name="main_line" value="#FFABACAF"/><!--分割线颜色-->
+	<Color name="main_client" value="#FFDDDFE2"/><!--客户区背景色(标签列和快捷启动区域背景色)-->
+	
+	<!--分组栏-->
+	<Color name="major_group_item_bk_hot" value="#FFB6BBC1"/><!--悬停背景色-->
+	<Color name="major_group_item_bk_sel" value="@main_client"/><!--选中背景色-->
+	<Color name="major_group_item_text_nml" value="@textdefaultcolor"/><!--文字颜色-->
+	
+	<!--标签列-->
+	<Color name="minor_group_item_bk_hot" value="#FFC5C7C9"/><!--悬停背景色-->
+	<Color name="minor_group_item_bk_sel" value="#FFB9BBBE"/><!--选中背景色-->
+	<Color name="minor_group_item_text_nml" value="@textdefaultcolor"/><!--文字颜色-->
+	
+	<!--快捷启动-->
+	<Color name="link_item_bk_hot" value="#FFC5C7C9"/><!--悬停背景色-->
+	<Color name="link_item_bk_sel" value="#FFB9BBBE"/><!--选中背景色-->
+	<Color name="link_item_bd_hot" value="#FFABACAF"/><!--悬停边框颜色-->
+	<Color name="link_item_text_nml" value="@textdefaultcolor"/><!--文字颜色-->
+	
+	<!--菜单样式-->
+	<Color name="menu_bk" value="rgb(255,255,255)"/><!--背景颜色-->
+	<Color name="menu_bd" value="rgb(186,186,186)"/><!--边框颜色-->
+	<Color name="menu_item_bk_hot" value="rgb(238,238,238)"/><!--菜单选项悬停背景色-->
+	<Color name="menu_item_bk_sel" value="rgb(238,238,238)"/><!--菜单选项选中背景色-->
+	
+	<!--文本编辑框样式-->
+	<Color name="edit_promptcolor" value="rgb(146,146,146)"/><!--编辑框提示文本颜色-->
+	<Color name="edit_textcolor" value="@textdefaultcolor"/><!--编辑框文本颜色-->
+	<Color name="edit_bkcolor" value="#FFFCFCFC"/><!--编辑框背景颜色-->
+	<Color name="edit_bd_nml" value="#FFCCCCCC"/><!--编辑框默认边框颜色-->
+	<Color name="edit_bd_hot" value="#FFABACAF"/><!--编辑框悬停边框颜色-->
+	<Color name="edit_bd_pushed" value="#FFABACAF"/><!--编辑框按下边框颜色-->
+	
+	<!--普通按钮样式-->
+	<Color name="btnbd_normal" value="rgb(162,162,162)"/><!--默认边框颜色-->
+	<Color name="btnbd_hot" value="rgb(123,123,123)"/><!--悬停边框颜色-->
+	<Color name="btnbd_pushed" value="rgb(75,75,75)"/><!--按下边框颜色-->
+	<Color name="btnbk_normal" value="@main_client"/><!--默认背景颜色-->
+	<Color name="btnbk_hot" value="@main_client"/><!--悬停背景颜色-->
+	<Color name="btnbk_pushed" value="@main_client"/><!--按下背景颜色-->
+	
+	<!--超链接按钮样式-->
+	<Color name="btn_url_textcolor" value="@blue"/><!--文字颜色-->
+</Global>
